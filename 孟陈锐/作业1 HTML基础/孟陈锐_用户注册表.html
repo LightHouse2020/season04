@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用户注册表</title>
+</head>
+<style type="text/css">
+.text_center{
+	text-align:center;
+}
+.block_center{
+	margin:auto;
+}
+
+</style>
+<body>
+	<h1 class="text_center">用户注册表</h1>
+	<form action="http://www.baidu.com" method="pos" name="UserInfo">
+		<table class="block_center" border="1" bordercolor="#000000" cellspacing="0" width="700" height="30">
+			<tr>
+				<td class="text_center" width="150" height="40"><b>用户名</b></td>
+				<td width="550" height="40">&nbsp&nbsp<input type="text"></td>
+			</tr>
+			<tr>
+				<td class="text_center" width="150" height="40"><b>密码</b></td>
+				<td width="550" height="40">&nbsp&nbsp<input type="password"></td>
+			</tr>
+			<tr>
+				<td class="text_center" width="150" height="40"><b>确认密码</b></td>
+				<td width="550" height="40">&nbsp&nbsp<input type="password"></td>
+			</tr>
+			<tr>
+				<td class="text_center" width="150" height="40"><b>电子邮箱</b></td>
+				<td width="550" height="40">&nbsp&nbsp<input type="text"></td>
+			</tr>
+			<tr>
+				<td class="text_center" width="150" height="40"><b>手机号码</b></td>
+				<td width="550" height="40">&nbsp&nbsp<input type="text"></td>
+			</tr>
+			<tr>
+				<td class="text_center" width="150" height="40"><b>性别</b></td>
+				<td>&nbsp&nbsp<input type="radio" name="sex">男
+					&nbsp&nbsp<input type="radio" name="sex">女
+				</td>
+			</tr>
+			<tr>
+				<td class="text_center" width="150" height="40"><b>是否有房</b></td>
+				<td>&nbsp&nbsp<input type="radio" name="house">有
+					&nbsp&nbsp<input type="radio" name="house">没有
+				</td>
+			</tr>
+			<tr>
+				<td class="text_center" width="150" height="40"><b>爱好</b></td>
+				<td>
+				<input type="checkbox">范冰
+				<input type="checkbox">刘菲
+				<input type="checkbox">颜溪 
+				<input type="checkbox">颜秉志
+				</td>
+			</tr>
+			<tr>
+				<td class="text_center" width="150" height="40"><b>户籍</b></td>
+				<td>
+				&nbsp&nbsp
+				<select style="width:100px; height:22px;font-size:14px">
+				<option value="北京">北京</option>
+				<option value="上海">上海</option>
+				<option selected value="北京">北京</option>
+				<option value="黑龙江">黑龙江</option>
+				<option value="吉林">吉林</option>
+				<option value="湖北">湖北</option>
+				<option value="湖南">湖南</option>
+				<option value="浙江">浙江</option>
+				<option value="福建">福建</option>
+				<option value="江西">江西</option>
+				<option value="贵州">贵州</option>
+				<option value="云南">云南</option>
+				</select> 
+				</td>
+			</tr>
+			<tr>
+				<td class="text_center" width="150" height="160"><b>课程</b></td>
+				<td>
+				&nbsp&nbsp
+				<select size="10" style="width:300px; height:150px;font-size:16px">
+				<option value="北京">软件架构师成长之路</option>
+				<option value="第一季">第一季</option>
+				<option value="第二季">第二季</option>
+				<option value="第三季">第三季</option>
+				<option value="...">...</option>
+				</td>
+			</tr>
+			<tr>
+				<td class="text_center" width="150" height="40"><b>头像</b></td>
+				<td>
+				&nbsp&nbsp
+				<input type="file" name="uploadfile" value="Browse..."/>
+				</td>
+			</tr>
+			<tr>
+				<td class="text_center" width="150" height="160"><b>个人介绍</b></td>
+				<td>
+					&nbsp&nbsp
+					<textarea style="width:400px; height:140px;">
+					</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td class="text_center" width="150" height="40"><b>验证码</b></td>
+				&nbsp&nbsp
+				<td width="550" height="40">&nbsp&nbsp<input type="text">&nbsp&nbsp<b>8888</b></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="text_center" width="700" height="40">
+				<input type="checkbox">是否阅读并同意协议
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="text_center" width="700" height="40">
+				<input type="submit" value="提交">
+				<input type="reset" value="重置">
+				</td>
+			</tr>
+		</table>
+</body>
+</html>
