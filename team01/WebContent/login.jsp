@@ -6,7 +6,7 @@
 <html>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>欢迎来到Team01，请登录</title>
-<link rel="stylesheet" type="text/css" href="/WEB-INF/css/login.css" />
+<link rel="stylesheet" type="text/css" href="css/login.css" />
 
 <body>
     <div id="div-relative0">
@@ -22,10 +22,10 @@
         <h1>请注册</h1>
 	        <a>用戸名:</a><br>
 	        <form action="<%=request.getContextPath() %>/home" method="get">
-			<a><input type="tel" class="box" placeholder="请输入您的用户名"></a><br>
+			<a><input type="tel" class="box" name="username" placeholder="请输入您的用户名" ></a><br>
 			<font size="4">密码:</font><br>
-            <a><input type="password" class="box" placeholder="请输入密码"></a><br><br>
-			<a align="center"><input type="submit" class="button" value="登陆"></a><br><br>
+            <a><input type="password" name="password" class="box" placeholder="请输入密码"></a><br><br>
+			<a align="center"><input type="submit" class="button" value="登录"></a><br><br>
 			 </form>
 			<div class=block2><a><input type="checkbox" name="確認" value="">记住密码</a></div>
 			<div class=block1><a class="font1" align="right" href="#">忘记密码</a><br><br></div>
