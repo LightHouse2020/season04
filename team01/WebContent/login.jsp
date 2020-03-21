@@ -21,7 +21,7 @@
 	<div id="div-relative1">
         <h1>请注册</h1>
 	        <a>用戸名:</a><br>
-	        <form action="<%=request.getContextPath() %>/home" method="get">
+	        <form action="<%=request.getContextPath() %>/home" method="post">
 			<a><input type="tel" class="box" name="username" placeholder="请输入您的用户名" ></a><br>
 			<font size="4">密码:</font><br>
             <a><input type="password" name="password" class="box" placeholder="请输入密码"></a><br><br>

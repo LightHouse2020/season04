@@ -17,7 +17,7 @@ public class HomeServlet extends HttpServlet{
 		String username=request.getParameter("username");
 		String password=request.getParameter("password");
 		if("meng".equals(username)&&"123456".equals(password)) {
-			request.getRequestDispatcher("/WEB-INF/jsp/home.jsp").forward(request, response);
+			request.getRequestDispatcher("html/home.html").forward(request, response);
 		}
 		else {
 			request.getRequestDispatcher("login.jsp").forward(request, response);
