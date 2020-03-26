@@ -9,4 +9,13 @@
     <servlet-name>Homepage</servlet-name>
     <url-pattern>/home</url-pattern>
   </servlet-mapping>
+  
+ <servlet>
+    <servlet-name>Signin_page</servlet-name>
+    <servlet-class>home.servlet.SigninServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Signin_page</servlet-name>
+    <url-pattern>/sign_in</url-pattern>
+  </servlet-mapping>
 </web-app>

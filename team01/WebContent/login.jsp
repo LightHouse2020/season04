@@ -19,18 +19,18 @@
 	</div>
 	
 	<div id="div-relative1">
-        <h1>请注册</h1>
+        <h1>请登录</h1>
 	        <a>用戸名:</a><br>
 	        <form action="<%=request.getContextPath() %>/home" method="post">
-			<a><input type="tel" class="box" name="username" placeholder="请输入您的用户名" ></a><br>
+			<a><input type="tel" class="box" name="login_username" placeholder="请输入您的用户名" ></a><br>
 			<font size="4">密码:</font><br>
-            <a><input type="password" name="password" class="box" placeholder="请输入密码"></a><br><br>
+            <a><input type="password" name="login_password" class="box" placeholder="请输入密码"></a><br><br>
 			<a align="center"><input type="submit" class="button" value="登录"></a><br><br>
 			 </form>
 			<div class=block2><a><input type="checkbox" name="確認" value="">记住密码</a></div>
 			<div class=block1><a class="font1" align="right" href="#">忘记密码</a><br><br></div>
 			<div class=block3><a class="font1" href="#">没有账号？</a></div>
-	        <div class=block4><a class="font2" href="html/sign_in.html">立即注册</a></div>
+	        <div class=block4><a class="font2" href="jsp/sign_in.jsp">立即注册</a></div>
 	</div>
 	
 	<div id="div-relative2">｜

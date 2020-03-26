@@ -1,3 +1,7 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt"%>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,36 +15,40 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <title>用户注册表</title>
 </head>
 
 
-</style>
 <body>
 
 	    <div class="container">
-	    <h1 style="text-align:center;margin-top:10%;color:teal;">team01的用户注册</h1>
+	    <h1 style="text-align:center;margin-top:10%;color:teal;">注册成为Team01的用户</h1>
         <div class="row" style="margin-top:5%;">
             <div class="offset-3 col-6">
                 <div class="card">
                     <div class="card-body">
+                    	<form action="<%=request.getContextPath() %>/sign_in"  method="post">
                         <div class="form-group">
-                            <label for="inputusername">请输入用户名：</label>
-                            <input type="text" class="form-control" id="inputusername" />
+                            <label for="signin_username">请输入用户名：</label>
+                            <input type="text" class="form-control" name="signin_username" />
                         </div>
+                        
                         <div class="form-group">
-                            <label for="inputpassword">请输入密码：</label>
-                            <input type="password" class="form-control" id="inputpassword" />
+                            <label for="signin_password">请输入密码：</label>
+                            <input type="password" class="form-control" name="signin_password" />
                         </div>
                         <p>
                             <small>如果忘记密码，需要电话号码验证</small>
                         </p>
                         <div class="form-group">
-                            <label for="inputpassword">请输入电话：</label>
-                            <input type="password" class="form-control" id="inputpassword" />
+                            <label for="signin_phonenumber">请输入电话：</label>
+                            <input type="password" class="form-control" name="signin_phonenumber" />
                         </div>
-                        <button class="btn btn-primary" id="loginbtn" style="float:right;">登录</button>
+                       
+                        <input class="btn btn-primary" type="submit" style="float:right;" value="登录" id="signinbtn">
                         <p id="registerresult"></p>
+                        </form>
                     </div>
                 </div>
             </div>
