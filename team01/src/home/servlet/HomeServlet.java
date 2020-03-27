@@ -47,9 +47,11 @@ public class HomeServlet extends HttpServlet{
 		try {
 			while (rs.next()) {
 				if(rs.getString(2).contentEquals(login_username)&&rs.getString(3).contentEquals(login_password)) {
+					request.setAttribute("success", "True");
 					request.getRequestDispatcher("/jsp/home.html").forward(request, response);
 				}
 			}
+			request.setAttribute("success", "False");
 			request.getRequestDispatcher("login.jsp").forward(request, response);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block

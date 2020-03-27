@@ -18,13 +18,5 @@
     <servlet-name>Signin_page</servlet-name>
     <url-pattern>/sign_in</url-pattern>
   </servlet-mapping>
-  
-   <servlet>
-    <servlet-name>return_login</servlet-name>
-    <servlet-class>home.servlet.Returnlogin</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>return_login</servlet-name>
-    <url-pattern>/return</url-pattern>
-  </servlet-mapping>
+
 </web-app>

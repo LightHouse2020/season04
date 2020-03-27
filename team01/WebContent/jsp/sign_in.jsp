@@ -31,19 +31,19 @@
                     	<form action="<%=request.getContextPath() %>/sign_in"  method="post">
                         <div class="form-group">
                             <label for="signin_username">请输入用户名：</label>
-                            <input type="text" class="form-control" name="signin_username" />
+                            <input type="text" class="form-control" name="signin_username" id="signin_username"/>
                         </div>
                         
                         <div class="form-group">
                             <label for="signin_password">请输入密码：</label>
-                            <input type="password" class="form-control" name="signin_password" />
+                            <input type="password" class="form-control" name="signin_password" id="signin_password"/>
                         </div>
                         <p>
                             <small>如果忘记密码，需要电话号码验证</small>
                         </p>
                         <div class="form-group">
                             <label for="signin_phonenumber">请输入电话：</label>
-                            <input type="password" class="form-control" name="signin_phonenumber" />
+                            <input type="password" class="form-control" name="signin_phonenumber" id="signin_phonenumber"/>
                         </div>
                        
                         <input class="btn btn-primary" type="submit" style="float:right;" value="登录" id="signinbtn">
@@ -54,6 +54,7 @@
             </div>
         </div>
     </div>
-<script src="../js/sign_in.js"></script>
+<script src="js/signin.js"></script>
+<script src="../js/signin.js"></script>
 </body>
 </html>
