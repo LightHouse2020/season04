@@ -1,6 +1,5 @@
 $(document).ready(function () {
     $("#signinbtn").click(function () {
-        alert(111)
-
+        alert("注册成功！请登录")
     });
 });

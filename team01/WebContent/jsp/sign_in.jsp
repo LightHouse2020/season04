@@ -54,5 +54,6 @@
             </div>
         </div>
     </div>
+<script src="../js/sign_in.js"></script>
 </body>
 </html>

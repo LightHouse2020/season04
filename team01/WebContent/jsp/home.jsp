@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt"%>
+
 
 <!DOCTYPE html>
 <html>
@@ -197,6 +200,9 @@
 	</div>
 	<div id="top4">
 		<div style="text-align:center;"><b style="font-size:36px;">欢迎来到Team01主页</b></div>
+		<form action="<%=request.getContextPath() %>/return"  method="post">
+		<input type="submit" style="float:right;" value="返回">
+		</form>
 	</div>
 </div>
 </body>
