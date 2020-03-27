@@ -25,6 +25,6 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>return_login</servlet-name>
-    <url-pattern>/sign_in</url-pattern>
+    <url-pattern>/return</url-pattern>
   </servlet-mapping>
 </web-app>

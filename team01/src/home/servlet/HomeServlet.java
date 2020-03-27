@@ -21,9 +21,7 @@ public class HomeServlet extends HttpServlet{
 	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
-		request.getParameter("username");
-		request.getParameter("password");
-		request.getRequestDispatcher("/html/home.html").forward(request, response);
+
 	}
 	
 	protected void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
@@ -49,7 +47,7 @@ public class HomeServlet extends HttpServlet{
 		try {
 			while (rs.next()) {
 				if(rs.getString(2).contentEquals(login_username)&&rs.getString(3).contentEquals(login_password)) {
-					request.getRequestDispatcher("jsp/home.html").forward(request, response);
+					request.getRequestDispatcher("/jsp/home.html").forward(request, response);
 				}
 			}
 			request.getRequestDispatcher("login.jsp").forward(request, response);
