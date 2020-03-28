@@ -40,8 +40,45 @@ public class SigninServlet extends HttpServlet{
 			request.getRequestDispatcher("jsp/sign_in.jsp").forward(request, response);
 		}
 		
+		//创建一个新的数据库
+			int number=1;
+			Connection conn = DBHelper.getConnection();
+			Statement stmt2 = null;
+			try {
+				stmt2 = conn.createStatement();
+			} catch (SQLException e2) {
+				// TODO Auto-generated catch block
+				e2.printStackTrace();
+			}
+			if (number==1) {
+			try {
+				stmt2.executeQuery("CREATE TABLE public.login\r\n" + 
+						"(\r\n" + 
+						"    id integer NOT NULL,\r\n" + 
+						"    user_name character varying(64) COLLATE pg_catalog.\"default\",\r\n" + 
+						"    password character varying(64) COLLATE pg_catalog.\"default\",\r\n" + 
+						"    phone_number character varying(64) COLLATE pg_catalog.\"default\",\r\n" + 
+						"    CONSTRAINT lesson_pkey1 PRIMARY KEY (id)\r\n" + 
+						")\r\n" + 
+						"WITH (\r\n" + 
+						"    OIDS = FALSE\r\n" + 
+						")\r\n" + 
+						"TABLESPACE pg_default;\r\n" + 
+						"\r\n" + 
+						"ALTER TABLE public.login\r\n" + 
+						"    OWNER to postgres;");
+				number=number+1;
+			} catch (SQLException e2) {
+				// TODO Auto-generated catch block
+				e2.printStackTrace();
+			}
+			}
+		
+		
+		
+		
 		//连接到数据库
-		Connection conn = DBHelper.getConnection();
+
 		PreparedStatement stmt = null;
 		try {
 			stmt = conn.prepareStatement("select * from login order by id");
