@@ -4,202 +4,158 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>äº¬ä¸ï¼æ­£åä½ä»·ï¼åè´¨ä¿éï¼ééåæ¶ï¼è½»æ¾è´­ç©</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" 
-      content="äº¬ä¸ï¼æ­£åä½ä»·ï¼åè´¨ä¿éï¼ééåæ¶ï¼è½»æ¾è´­ç©"/>
-<meta name="Keywords" 
-      content="ç½ä¸è´­ç©,ç½ä¸åå,ææº,ç¬è®°æ¬,çµè,MP3,CD,VCD,DV,ç¸æº,æ°ç ,éä»¶,æè¡¨,å­å¨å¡,äº¬ä¸"/>
-<link rel="stylesheet" type="text/css" href="css/home.css" />
+<title>欢迎来到team01的主页</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="topGrayNav">
-</div>
-<div id="topBanner">
-    <div id="topGrayNavSon">
-    	<div id="topGrayNavSon-left">
-			<img src="imgs/flag1.jpg" id="user-positon-img">
-			<div style="color:#888" id="user-positon-text">æ¥æ¬</div>
-		</div>
-        <div id="topGrayNavSon-right">        	
-            <div id="user-Login">æ¨å¥½,è¯·ç»å½ <a style="color:#F00" href="#">åè´¹æ³¨å</a></div>
-        	<ul id="navRight">
-            	<li class="sep"><a><img src="imgs/sep1.jpg"></a></li>
-                <li class="textNr"><a class="change_red" href="#">æçè®¢å</a></li>
-                <li class="sep"><img src="imgs/sep1.jpg"></li>
-                <li id="jd_dropdown"><a class="change_red" href="#">æçäº¬ä¸&nbspâ¨</a>
-					<ul class="jd_dropdown_menu">
-						<li id="dp1"><a href="#">å¾å¤çè®¢å</a></li>
-						<li id="dp2"><a href="#">è¿ä¿®éæ¢è´§</a></li>
-						<li id="dp3"><a href="#">éä»·åå</a></li>
-						<li id="dp4"><a href="#">æ¶æ¯</a></li>
-						<li id="dp5"><a href="#">æçé®ç­</a></li>
-						<li id="dp6"><a href="#">æçå³æ³¨</a></li>
-					</ul>
-				</li>
-                <li class="sep"><img src="imgs/sep1.jpg"></li>
-                <li class="textNr"><a class="change_red" href="#">äº¬ä¸ä¼å</a></li>
-                <li class="sep"><img src="imgs/sep1.jpg"></li>
-                <li class="textNr"><a class="change_red" href="#">ä¼ä¸éè´­</a></li>
-                <li class="sep"><img src="imgs/sep1.jpg"></li>
-                <li class="textNr"><a class="change_red" href="#">å®¢æ·æå¡</a></li>
-                <li class="sep"><img src="imgs/sep1.jpg"></li>
-                <li class="textNr">ç½ç«å¯¼èª</li>
-                <li class="sep"><img src="imgs/sep1.jpg"></li>
-                <li class="textNr">ææºäº¬ä¸</li>
-            </ul>
-        </div>
-    </div>	 	
-</div>	
-<div id="top2_WhiteNav">
-    <div><img id="img_dog" src="imgs/logo.jpg" style="height:168px;width:212px;"></div>
-    <div id="top2_mid">
-	    <div><input id="top2_search" placeholder="æºæ¢°é®ç" type="text"></input></div>
-		<div><img id="search_img" src="imgs/search.jpg"></div>
-		<ul id="mid_text">
-			<li class="mid_text1"><a class="change_red_static" href="#">é¢å¸äº«äºæ</a></li>
-			<li class="mid_text1"><a class="change_red" href="#">çæ°é</a></li>
-			<li class="mid_text1"><a class="change_red" href="#">çæ¬¾çµè§</a></li>
-			<li class="mid_text1"><a class="change_red" href="#">æ»¡199å60</a></li>
-			<li class="mid_text1"><a class="change_red" href="#">åè´¨å®¶å·</a></li>
-			<li class="mid_text1"><a class="change_red" href="#">æ¯å©´ç©å·</a></li>
-		</ul>
-	<div id="top2_right">
-		<div id="frame">
-			<img id="cart" src="imgs/cart.jpg">
-			<a id="shopping" class="change_red_static" href="#">æçè´­ç©è½¦</a></div>
-		<div><img id="baokuan_img" src="imgs/baokuan.jpg "></div>
-	</div>
-    </div>
-	<div id="top2_down">
-		<ul id="down_text">
-			<li class="down_text1"><a class="change_red_static1" href="#"><b style="font-size:17px">ç§æ</b></a></li>
-			<li class="down_text1"><a class="change_red_static1" href="#"><b style="font-size:17px">ä¼æ å¸</b></a></li>
-			<li class="down_text1"><a class="change_red1" href="#">PLUSä¼å</a></li>
-			<li class="down_text1"><a class="change_red1" href="#">åçéªè´­</a></li>
-			<li class="down_text1"><a class="change_red1" href="#">æå</a></li>
-			<li class="down_text1"><a class="change_red1" href="#">äº¬ä¸å®¶çµ</a></li>
-			<li class="down_text1"><a class="change_red1" href="#">äº¬ä¸è¶å¸</a></li>
-			<li class="down_text1"><a class="change_red1" href="#">äº¬ä¸çé²</a></li>
-			<li class="down_text1"><a class="change_red1" href="#">äº¬ä¸å½é</a></li>
-			<li class="down_text1"><a class="change_red1" href="#">äº¬ä¸éè</a></li>
-		</ul>
-	</div>
-</div>
-<div id="top3_whiteNav">
-    <div id="top3_left">
-		<ul style="list-style:none">
-			<li class="top3_lefttext"><a class="change_red2" style="margin-left:10px" href="#">å®¶ç¨çµå¨</a></li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">ææº</a>/
-				<a class="change_red2" href="#">è¿è¥å</a>/
-				<a class="change_red2" href="#">åå¬</a>
-			</li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">çµè</a>/
-				<a class="change_red2" href="#">åå¬</a>
-			</li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">å®¶å±</a>/
-				<a class="change_red2" href="#">å®¶å·</a>/
-				<a class="change_red2" href="#">å®¶è£</a>/
-				<a class="change_red2" href="#">å¨å·</a>
-			</li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">ç·è£</a>/
-				<a class="change_red2" href="#">å¥³è£</a>/
-				<a class="change_red2" href="#">ç«¥è£</a>/
-				<a class="change_red2" href="#">åè¡£</a>
-			</li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">ç¾å¦</a>/
-				<a class="change_red2" href="#">ä¸ªæ¤æ¸æ´</a>/
-				<a class="change_red2" href="#">å® ç©</a>
-			</li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">å¥³é</a>/
-				<a class="change_red2" href="#">ç®±å</a>/
-				<a class="change_red2" href="#">éè¡¨</a>/
-				<a class="change_red2" href="#">ç å®</a>
-			</li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">ç·é</a>/
-				<a class="change_red2" href="#">è¿å¨</a>/
-				<a class="change_red2" href="#">æ·å¤</a>
-			</li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">æ¿äº§</a>/
-				<a class="change_red2" href="#">æ±½è½¦</a>/
-				<a class="change_red2" href="#">æ±½è½¦ç¨å</a>
-			</li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">æ¯å©´</a>/
-				<a class="change_red2" href="#">ç©å·ä¹å¨</a>
-			</li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">é£å</a>/
-				<a class="change_red2" href="#">éç±»</a>/
-				<a class="change_red2" href="#">çé²</a>/
-				<a class="change_red2" href="#">ç¹äº§</a>
-			</li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">èºæ¯</a>/
-				<a class="change_red2" href="#">ç¤¼åé²è±</a>/
-				<a class="change_red2" href="#">åèµç»¿æ¤</a>
-			</li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">å»çä¿å¥</a>/
-				<a class="change_red2" href="#">è®¡çæè¶£</a>
-			</li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">å¾ä¹¦</a>/
-				<a class="change_red2" href="#">æå¨±</a>/
-				<a class="change_red2" href="#">æè²</a>/
-				<a class="change_red2" href="#">çµå­ä¹¦</a>
-			</li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">æºç¥¨</a>/
-				<a class="change_red2" href="#">éåº</a>/
-				<a class="change_red2" href="#">ææ¸¸</a>/
-				<a class="change_red2" href="#">çæ´»</a>
-			</li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">çè´¢</a>/
-				<a class="change_red2" href="#">ä¼ç­¹</a>/
-				<a class="change_red2" href="#">ç½æ¡</a>/
-				<a class="change_red2" href="#">ä¿é©</a>
-			</li>
-			<li class="top3_lefttext">
-				<a class="change_red2" style="margin-left:10px" href="#">å®è£</a>/
-				<a class="change_red2" href="#">ç»´ä¿®</a>/
-				<a class="change_red2" href="#">æ¸æ´</a>/
-				<a class="change_red2" href="#">äºæ</a>
-			</li>
-			<li class="top3_lefttext"><a class="change_red2" style="margin-left:10px" href="#">å·¥ä¸å</a></li>
-		</ul>
-	</div>
-	<div id="top3_mid">
-		<a href="#"><img src="imgs/å¥½è´§.jpg" style="height:500px;margin-left:10px;"></a>
-	</div>
-	<div id="top3_right1">
-		<a href="#"><img src="imgs/äº¬ä¸Eå¡.jpg" style="width:200px;"></a>
-		<a href="#"><img src="imgs/æ­£åå¥½è¯.jpg" style="width:200px;margin-top:10px;"></a>
-		<a href="#"><img src="imgs/ç¾é£çå®´.jpg" style="width:200px;margin-top:10px"></a>
-	</div>
-	<div id="top3_right2">
-		<div id="top3_right2_up">
-			<a href="#"><img src="imgs/dog2.jpg" style="width:212px;"></a>
-			<a href="#" id="button1">æ°äººç¦å©</a>
-			<a href="#" id="button2">PLUSä¼å</a>
-		</div>
-		<div id="top3_right2_down">
-			<a href="#"><img src="imgs/äº¬ä¸å¿«æ¥.jpg" style="width:212px;"></a>
-			<a href="#"><img src="imgs/éåº.jpg" style="width:212px;"></a>
+
+<nav class="navbar navbar-light bg-light ">
+			
+			<a class="navbar-brand">Welcome to homepage</a>
+				<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<form action="<%=request.getContextPath() %>/log_out"  method="post">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log out</button>
+				</form>
+			
+		</nav>
+	<div class="container">
+	<ul class="nav justify-content-center py-1 mb-2">
+		<li class="nav-item">
+			<a class="nav-link active" href="#">World</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">U.S.</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Technology</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Design</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Culture</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Business</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Polities</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Opinion</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Design</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Science</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Health</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Style</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Travel</a>
+		</li>
+	</ul>
+
+	<div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+		<div class="lead text-white font-weight-bold">
+			<h1 class="display-4" id="d4_title">Hello, world!</h1>
+			<p class="lead" id="d4_text">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+			<hr class="my-4" >
+			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+			<a class="btn btn-primary btn-lg" href="#" role="button" id="d4_url">Learn more</a>
 		</div>
 	</div>
-	<div id="top4">
-		<div style="text-align:center;"><b style="font-size:36px;">æ¬¢è¿æ¥å°Team01ä¸»é¡µ</b></div>
+	
+	<div class="row mb-4">
+		<div class="col-sm-6">
+			<div class="card" id="card-1">
+				<div class="row" >
+					<div class="col-md-8">
+						<div class="card-body">
+							<strong class="d-inline-block mb-2 text-primary">Category</strong>
+							<h5 class="card-title mb-0"><a class="text-dark" href="#">Card title</a></h5>
+							<p class="card-text mb-1"><small class="text-muted">Date</small></p>
+							<p class="short-text">Some quick example text to build on the card title and make up the
+								bulk of the card's content.</p>
+							<p class="mb-1"><a href="#">Continue reading</a></p>
+						</div>
+					</div>
+					<div class="col-md-4 img-center">
+						<img class="card-img" alt="placeholder" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="card" id="card-2">
+				<div class="row" >
+					<div class="col-md-8">
+						<div class="card-body">
+							<strong class="d-inline-block mb-2 text-primary">Category</strong>
+							<h5 class="card-title mb-0"><a class="text-dark" href="#">Card title</a></h5>
+							<p class="card-text mb-1"><small class="text-muted">Date</small></p>
+							<p class="short-text">Some quick example text to build on the card title and make up the
+								bulk of the card's content.</p>
+							<p class="mb-1"><a href="#">Continue reading</a></p>
+						</div>
+					</div>
+					<div class="col-md-4 img-center">
+						<img class="card-img" alt="placeholder" />
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-</div>
+
+
+	<div class="row">
+		<div class="col-md-8 ">
+			<h3 class="pb-3 mb-4 border-bottom">Latest Updates</h3>
+			<div id="latest-news-1">
+				<h2>Title</h2>
+				<p>
+					<small class="text-muted"><span class="date">Date</span> by <a href="#"
+							class="author">Author</a></small>
+				</p>
+				<p class="short-text">short text</p>
+				<hr />
+				<p class="body">body</p>
+			</div>
+			<div id="latest-news-2">
+				<h2>Title</h2>
+				<p>
+					<small class="text-muted"><span class="date">Date</span> by <a href="#"
+							class="author">Author</a></small>
+				</p>
+				<p class="short-text">short text</p>
+				<hr />
+				<p class="body">body</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="jumbotron p-3 bg-light">
+				<h4>About</h4>
+				<p>This is a quick overview of Lighthouse Plan Flask Project. The frontend design is refering to
+					this <a href="https://getbootstrap.com/docs/4.0/examples/blog/">template</a>.</p>
+			</div>
+		</div>
+	</div>
+
+
 </body>
 </html>
