@@ -3,7 +3,7 @@
   <display-name>season09</display-name>
 <servlet>
     <servlet-name>home</servlet-name>
-    <servlet-class>home.servlet.HomeServlet</servlet-class>
+    <servlet-class>Team01Dispatcher.DispatchServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>home</servlet-name>

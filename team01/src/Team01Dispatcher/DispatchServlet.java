@@ -1,4 +1,4 @@
-package home.servlet;
+package Team01Dispatcher;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import jdbc.ConnectionDemo;
 
-public class HomeServlet extends HttpServlet{
+public class DispatchServlet extends HttpServlet{
 	/**
 	 * 
 	 */
@@ -57,7 +57,7 @@ public class HomeServlet extends HttpServlet{
 				while (rs.next()) {
 					if(rs.getString(2).contentEquals(login_username)&&rs.getString(3).contentEquals(login_password)) {
 						request.setAttribute("success", "True");
-						request.getRequestDispatcher("/jsp/home.jsp").forward(request, response);
+						request.getRequestDispatcher("jsp/home.jsp").forward(request, response);
 					}
 				}
 				request.setAttribute("success", "False");
