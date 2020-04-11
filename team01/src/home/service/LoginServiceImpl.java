@@ -22,13 +22,9 @@ public class LoginServiceImpl implements Service {
 		boolean hasUserInfo = false;
 		try {// **持久层代码
 			stmt = conn.prepareStatement("select password from login where username=?");// **持久层代码
-// id =form.getUsername;
+			// id =form.getUsername;
 			rs = stmt.executeQuery();// **持久层代码
-			while (rs.next()) {// **持久层代码
-				if (rs.getString(1).contentEquals(form.getPassword())) {// **持久层代码
-					hasUserInfo = true;
-				}
-			}
+
 			if (hasUserInfo) {
 				serviceResult.setStatus("success");
 				serviceResult.setPageId("/jsp/home.jsp");
