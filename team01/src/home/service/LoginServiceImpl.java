@@ -15,24 +15,23 @@ public class LoginServiceImpl implements Service {
 	@Override
 	public ServiceResult execute(LoginForm form) {
 		final Connection conn = ConnectionDemo.getConnection();// ***业务逻辑层代码
-
+		String username=form.getUsername();
+		String password=form.getPassword();
 		PreparedStatement stmt = null;// **持久层代码
 		ResultSet rs = null;// **持久层代码
 		final ServiceResult serviceResult = new ServiceResult();
 		boolean hasUserInfo = false;
 		try {// **持久层代码
-			stmt = conn.prepareStatement("select password from login where username=?");// **持久层代码
-			// id =form.getUsername;
+			stmt = conn.prepareStatement("select * from login order by id");// **持久层代码
 			rs = stmt.executeQuery();// **持久层代码
-
-			if (hasUserInfo) {
-				serviceResult.setStatus("success");
-				serviceResult.setPageId("/jsp/home.jsp");
-			} else {
-				serviceResult.setStatus("false");
-				serviceResult.setPageId("/jsp/login.jsp");
+			while (rs.next()) {
+				if(rs.getString(2).contentEquals(username)&&rs.getString(3).contentEquals(password)) {
+					serviceResult.setStatus("success");
+					serviceResult.setPageId("/jsp/home.jsp");
+				}
 			}
-
+				serviceResult.setStatus("false");
+				serviceResult.setPageId("/jsp/register.jsp");
 		} catch (final SQLException e) {
 			e.printStackTrace();
 		}
